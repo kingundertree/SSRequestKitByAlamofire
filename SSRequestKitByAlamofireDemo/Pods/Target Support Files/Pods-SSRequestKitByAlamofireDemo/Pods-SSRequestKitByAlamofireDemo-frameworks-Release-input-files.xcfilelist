@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SSRequestKitByAlamofireDemo/Pods-SSRequestKitByAlamofireDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SSRequestKitByAlamofire/SSRequestKitByAlamofire.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

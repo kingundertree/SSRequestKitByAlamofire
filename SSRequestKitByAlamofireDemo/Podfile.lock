@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.9.1)
+  - SSRequestKitByAlamofire (0.0.1):
+    - Alamofire
+    - SSRequestKitByAlamofire/Adater (= 0.0.1)
+    - SSRequestKitByAlamofire/Config (= 0.0.1)
+    - SSRequestKitByAlamofire/Core (= 0.0.1)
+    - SSRequestKitByAlamofire/Others (= 0.0.1)
+    - SSRequestKitByAlamofire/Result (= 0.0.1)
+    - SSRequestKitByAlamofire/Retrier (= 0.0.1)
+    - SSRequestKitByAlamofire/SSApi (= 0.0.1)
+    - SwiftyJSON
+  - SSRequestKitByAlamofire/Adater (0.0.1):
+    - Alamofire
+    - SwiftyJSON
+  - SSRequestKitByAlamofire/Config (0.0.1):
+    - Alamofire
+    - SwiftyJSON
+  - SSRequestKitByAlamofire/Core (0.0.1):
+    - Alamofire
+    - SwiftyJSON
+  - SSRequestKitByAlamofire/Others (0.0.1):
+    - Alamofire
+    - SwiftyJSON
+  - SSRequestKitByAlamofire/Result (0.0.1):
+    - Alamofire
+    - SwiftyJSON
+  - SSRequestKitByAlamofire/Retrier (0.0.1):
+    - Alamofire
+    - SwiftyJSON
+  - SSRequestKitByAlamofire/SSApi (0.0.1):
+    - Alamofire
+    - SwiftyJSON
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - SSRequestKitByAlamofire (from `../../SSRequestKitByAlamofire`)
+  - SwiftyJSON (= 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SSRequestKitByAlamofire:
+    :path: "../../SSRequestKitByAlamofire"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  SSRequestKitByAlamofire: a0ad60fe1fa48f021c114491d551384a7a87ae99
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 23299feabbfba4525ab45889b2aaa6cab7c4759e
+
+COCOAPODS: 1.9.1

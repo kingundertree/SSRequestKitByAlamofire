@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+use_frameworks!
+
+workspace 'SSRequestKitByAlamofireDemo'
+project 'SSRequestKitByAlamofireDemo'
+
+target 'SSRequestKitByAlamofireDemo' do
+    pod 'SwiftyJSON', '5.0.0'
+    pod 'Alamofire'
+
+    pod 'SSRequestKitByAlamofire', :git => 'git@github.com:kingundertree/SSRequestKitByAlamofire.git', :tag => '0.0.1'
+#    pod 'SSRequestKitByAlamofire', :path => '../../SSRequestKitByAlamofire'
+end

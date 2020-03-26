@@ -1,0 +1,6 @@
+framework module SSRequestKitByAlamofire {
+  umbrella header "SSRequestKitByAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "SSRequestKitByAlamofire",
+  "version": "0.0.1",
+  "summary": "A short description of SSRequestKitByAlamofire.",
+  "description": "Hi, SSRequestKitByAlamofire!",
+  "homepage": "git@gitee.com:xiazer/SSRequestKitByAlamofire.git",
+  "license": "MIT",
+  "authors": {
+    "Summer Solstice": "kingundertree@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": "Sources/*.h",
+  "public_header_files": "Sources/*.h",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SwiftyJSON": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/Core/*.{h,m,swift}",
+      "public_header_files": "Sources/Core/*.h"
+    },
+    {
+      "name": "Adater",
+      "source_files": "Sources/Adater/*.{h,m,swift}",
+      "public_header_files": "Sources/Adater/*.h"
+    },
+    {
+      "name": "Retrier",
+      "source_files": "Sources/Retrier/*.{h,m,swift}",
+      "public_header_files": "Sources/Retrier/*.h"
+    },
+    {
+      "name": "Config",
+      "source_files": "Sources/Config/*.{h,m,swift}",
+      "public_header_files": "Sources/Config/*.h"
+    },
+    {
+      "name": "SSApi",
+      "source_files": "Sources/SSApi/*.{h,m,swift}",
+      "public_header_files": "Sources/SSApi/*.h"
+    },
+    {
+      "name": "Result",
+      "source_files": "Sources/Result/*.{h,m,swift}",
+      "public_header_files": "Sources/Result/*.h"
+    },
+    {
+      "name": "Others",
+      "source_files": "Sources/Others/*.{h,m,swift}",
+      "public_header_files": "Sources/Others/*.h"
+    }
+  ]
+}
