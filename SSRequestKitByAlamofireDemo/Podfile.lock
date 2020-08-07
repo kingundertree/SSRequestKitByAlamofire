@@ -35,7 +35,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - SSRequestKitByAlamofire (from `../../SSRequestKitByAlamofire`)
+  - "SSRequestKitByAlamofire (from `git@github.com:kingundertree/SSRequestKitByAlamofire.git`, tag `0.0.1`)"
   - SwiftyJSON (= 5.0.0)
 
 SPEC REPOS:
@@ -45,13 +45,19 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   SSRequestKitByAlamofire:
-    :path: "../../SSRequestKitByAlamofire"
+    :git: "git@github.com:kingundertree/SSRequestKitByAlamofire.git"
+    :tag: 0.0.1
+
+CHECKOUT OPTIONS:
+  SSRequestKitByAlamofire:
+    :git: "git@github.com:kingundertree/SSRequestKitByAlamofire.git"
+    :tag: 0.0.1
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   SSRequestKitByAlamofire: a0ad60fe1fa48f021c114491d551384a7a87ae99
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 23299feabbfba4525ab45889b2aaa6cab7c4759e
+PODFILE CHECKSUM: dfa447234baa2af738e2a6fc311bfa0f4f1b11a1
 
 COCOAPODS: 1.9.1

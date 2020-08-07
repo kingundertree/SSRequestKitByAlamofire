@@ -8,6 +8,7 @@
 
 import UIKit
 import SSRequestKitByAlamofire
+import Alamofire
 
 class ViewController: UIViewController {
 

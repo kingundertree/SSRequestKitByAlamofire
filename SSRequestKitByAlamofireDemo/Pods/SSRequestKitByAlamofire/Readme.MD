@@ -4,9 +4,6 @@ SSRequestKitByAlamofire 是基于Alamofire封装，适配大部分企业的网�
 2. 通过SSRequestable 协议简化请求和response的map映射，让请求调用更简单好用
 3. 和SSRequestDirect实现非常类似
 
-### PS
-项目使用了正常的签名校验，但Demo中是API没有使用常规的签名校验。如果自行使用，需要适配签名校验方案
-
 ### 调用
 ```
 let initDic: [String : Any] = [:]
